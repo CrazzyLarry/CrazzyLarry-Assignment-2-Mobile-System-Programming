@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src\no\hig\ass2_120297_120296\MainActivity.java" />
+    </issue>
+</lint>

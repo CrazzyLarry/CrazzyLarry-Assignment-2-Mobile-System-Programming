@@ -1,0 +1,16 @@
+
+<resources>
+
+    <string name="app_name">ass2_120297_120296</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">UA compass</string>
+    <string name="headline">Ihre gegenwärtige Blickrichtung ist</string>
+    <string name="north">Nord</string>
+    <string name="east">Ost</string>
+    <string name="south">Süd</string>
+    <string name="west">West</string>
+    
+    
+
+</resources>

@@ -1,0 +1,51 @@
+<!--
+    		android main colors
+    		
+    		#33B5E5 = blue
+    		#0099CC = dark blue
+    		#AA66CC = violet
+    		#99CCOO = green
+    		#FFBB33 = orange
+    		#FF4444 = red
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    style="@style/Container.Day">
+
+    
+    <!-- spacing between direction arrow and upper edge -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <!-- directions arrow (night theme) -->
+    <ImageView
+        android:id="@+id/directionArrow"
+        style="@style/DirectionsArrow.Day.Deactivated"
+        />
+
+    <!-- spacing between direction arrow -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    
+	<!-- text: "your current direction is .. -->
+    <TextView
+         android:id="@+id/headline"
+         style="@style/Headline.Day"
+      />
+    
+	<!-- direction values -->
+    <TextView
+        android:id="@+id/tvSensor"
+        style="@style/DirectionText.Day" 
+      />
+	
+    <!-- vector compass (night theme) -->
+    <ImageView
+        android:id="@+id/compass"
+        style="@style/Compass.Day"   
+     />
+    
+</LinearLayout>
